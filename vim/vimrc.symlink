@@ -1,0 +1,25 @@
+set autoindent
+set smartindent
+set nowrap
+set softtabstop=2
+set expandtab
+set nosmarttab
+
+set ruler
+set number
+set report=0
+set nostartofline
+
+set showmatch
+set mat=5
+set visualbell
+
+
+" ---------------------------------------------------------------------------
+"  Strip all trailing whitespace in file
+" ---------------------------------------------------------------------------
+
+function! StripWhitespace ()
+    exec ':%s/ \+$//gc'
+endfunction
+map ,s :call StripWhitespace ()<CR>
