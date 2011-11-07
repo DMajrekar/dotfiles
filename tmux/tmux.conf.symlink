@@ -1,0 +1,2 @@
+# Set Contrl A to be be prefix
+set-option -g prefix C-a
