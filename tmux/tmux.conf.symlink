@@ -1,2 +1,2 @@
-# Set Contrl A to be be prefix
-set-option -g prefix C-a
+# look good
+set -g default-terminal "screen-256color"
