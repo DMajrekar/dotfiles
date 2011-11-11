@@ -31,3 +31,4 @@ map ,s :call StripWhitespace ()<CR>
 " Set 2 space indent for coffee-script plugin
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.json setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
