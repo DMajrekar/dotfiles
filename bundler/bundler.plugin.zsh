@@ -1,6 +1,6 @@
 # The following is based on https://github.com/gma/bundler-exec
 
-bundled_commands=(guard rails rake rspec)
+bundled_commands=( cucumber guard rails rake rspec)
 
 ## Functions
 
