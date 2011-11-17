@@ -1,0 +1,9 @@
+[user]
+	name = Dinesh Majrekar
+	email = dinesh.majrekar@serverchoice.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[gc]
+	auto = 0
