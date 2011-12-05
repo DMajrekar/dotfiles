@@ -5,5 +5,8 @@
 	diff = auto
 	status = auto
 	branch = auto
+        excludesfiles = ~/.gitignore_global
 [gc]
 	auto = 0
+[github]
+	user = d.majrekar@gmail.com
