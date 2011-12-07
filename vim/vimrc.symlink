@@ -17,6 +17,7 @@ set visualbell
 
 " Set up pahtogen
 call pathogen#infect()
+syntax on
 filetype plugin indent on
 
 " ---------------------------------------------------------------------------
