@@ -19,7 +19,11 @@ _within-bundled-project() {
 
 _run-with-bundler() {
   if _bundler-installed && _within-bundled-project; then
-    bundle exec $@
+    if [[ -f "./bin/$@" ]]; then
+      ./bin/$@
+    else
+      bundle exec $@
+    fi
   else
     $@
   fi
