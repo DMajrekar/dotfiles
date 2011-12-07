@@ -2,4 +2,4 @@
 set -g default-terminal "screen-256color"
 
 # Quick pane switching
-bind-key -n C-n last-pane
+bind-key -n C-Space last-pane
