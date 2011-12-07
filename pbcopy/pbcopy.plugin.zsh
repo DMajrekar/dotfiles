@@ -1,3 +1,4 @@
+# Inspired by http://seancoates.com/blogs/remote-pbcopy
 function _pbcopy_command () {
   if [ -e "/usr/bin/pbcopy" ]; then
     /usr/bin/pbcopy
