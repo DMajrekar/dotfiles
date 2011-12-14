@@ -1,14 +1,22 @@
 set autoindent
 set smartindent
-set nowrap
-set softtabstop=2
-set expandtab
-set nosmarttab
 
-set ruler
-set number
-set report=0
-set nostartofline
+" Whitespace
+set nowrap
+set tabstop=2 shiftwidth=2      " a tab is two spaces
+set expandtab                   " use spaces, not tabs
+
+" Display
+set ruler                       " show the cursor position all the time
+set number                      " Show line numbers
+syntax on
+color delek
+
+" Searching
+set incsearch                   " incremental searching
+set ignorecase                  " searches are case insensitive...
+set smartcase                   " ... unless they contain at least one capital letter
+
 
 set showmatch
 set mat=5
@@ -17,7 +25,6 @@ set visualbell
 
 " Set up pahtogen
 call pathogen#infect()
-syntax on
 filetype plugin indent on
 
 " ---------------------------------------------------------------------------
