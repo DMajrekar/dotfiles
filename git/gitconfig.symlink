@@ -10,3 +10,5 @@
 	auto = 0
 [github]
 	user = d.majrekar@gmail.com
+[core]
+	excludesfile = /home/dmajrekar/.gitignore_global
