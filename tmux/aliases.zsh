@@ -1,2 +1,2 @@
-alias ta='tmux attach'
+alias ta='tmux -C attach'
 alias tls='tmux ls'
