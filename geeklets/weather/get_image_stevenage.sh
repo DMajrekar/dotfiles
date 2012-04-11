@@ -1,0 +1,1 @@
+curl --silent "http://weather.yahoo.com/england/hertfordshire/stevenage-36094/" | grep "forecast-icon" | sed "s/.*background\:url(\'\(.*\)\')\;\ _background.*/\1/" | xargs curl --silent -o /tmp/weather.png
