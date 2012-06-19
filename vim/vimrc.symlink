@@ -41,7 +41,7 @@ map ,s :call StripWhitespace ()<CR>
 au BufNewFile,BufReadPost *.slim setl textwidth=0
 
 " Set Guardfile as ruby
-au BufNewFile,BufRead Guardfile,.Guardfile    set filetype=ruby
+au BufNewFile,BufRead *.rabl,Guardfile,.Guardfile    set filetype=ruby
 
 
 " ctrlp options
