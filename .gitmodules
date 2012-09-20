@@ -22,3 +22,9 @@
 [submodule "vim/vim.symlink/bundle/vim-puppet"]
 	path = vim/vim.symlink/bundle/vim-puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "vim/vim.symlink/bundle/haml-vim"]
+	path = vim/vim.symlink/bundle/haml-vim
+	url = https://github.com/tpope/vim-haml.git
+[submodule "vim/vim.symlink/bundle/vim-stylus"]
+	path = vim/vim.symlink/bundle/vim-stylus
+	url = git://github.com/wavded/vim-stylus.git
