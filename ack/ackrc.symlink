@@ -2,5 +2,6 @@
 --type-add=css=.less
 --type-add=js=.coffee
 --type-add=ruby=.slim
+--type-add=js=.jade
 --ignore-dir=ruby
 --ignore-dir=coverage
