@@ -49,3 +49,6 @@ au BufNewFile,BufRead *.rabl,Guardfile,.Guardfile,*.prawn    set filetype=ruby
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$|log$',
   \ }
+
+" Map jj to Esc
+inoremap jj <ESC>
