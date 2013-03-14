@@ -10,8 +10,7 @@ set expandtab                   " use spaces, not tabs
 set ruler                       " show the cursor position all the time
 set number                      " Show line numbers
 syntax on
-color default
-" color delek
+color molokai
 
 " Searching
 set incsearch                   " incremental searching
@@ -47,8 +46,10 @@ au BufNewFile,BufRead *.rabl,Guardfile,.Guardfile,*.prawn    set filetype=ruby
 " ctrlp options
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$|log$',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$|log$|tmp/cache',
   \ }
 
 " Map jj to Esc
 inoremap jj <ESC>
+
+nmap ;; :w<CR>
