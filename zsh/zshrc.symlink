@@ -6,8 +6,13 @@ for config_file ($ZSH/**/*.zsh) source $config_file
 
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
-compinit
+compinit -d ~/.zsh_compinit_cache
 
 # load every completion after autocomplete loads
 for config_file ($ZSH/**/completion.sh) source $config_file
 
+# Ignore duplicate entries when searching through history
+setopt HIST_IGNORE_DUPS
+setopt HIST_FIND_NO_DUPS
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
