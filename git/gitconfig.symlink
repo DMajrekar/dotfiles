@@ -12,3 +12,5 @@
 	user = d.majrekar@gmail.com
 [core]
 	excludesfile = /home/dmajrekar/.gitignore_global
+[push]
+	default = simple
