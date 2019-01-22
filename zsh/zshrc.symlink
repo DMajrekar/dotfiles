@@ -14,5 +14,3 @@ for config_file ($ZSH/**/completion.sh) source $config_file
 # Ignore duplicate entries when searching through history
 setopt HIST_IGNORE_DUPS
 setopt HIST_FIND_NO_DUPS
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
