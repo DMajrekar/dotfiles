@@ -17,4 +17,6 @@ function git_prompt_info() {
 
 precmd() {
   PROMPT="%(!.%{$fg_bold[red]%}.%{$fg_bold[green]%}%n@)%m %{$fg_bold[blue]%}%(!.%1~.%~) $(git_prompt_info)%#%{$reset_color%} "
+  RPROMPT="[%D{%f/%m/%y} | %T]"
 }
+
