@@ -1,7 +1,7 @@
 alias gst='git status -sb'
 alias gba='git branch -a'
 alias gco='git checkout'
-alias gpo='git push origin master'
+alias gpo='git push origin '
 alias gpp='git push production'
 alias gd='git diff'
 alias gdc='git diff --cached'
