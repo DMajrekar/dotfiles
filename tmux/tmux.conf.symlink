@@ -1,5 +1,0 @@
-# look good
-set -g default-terminal "screen-256color"
-
-# Quick pane switching
-bind-key -n C-Space last-pane
