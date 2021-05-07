@@ -14,3 +14,12 @@
 	excludesfile = /home/dmajrekar/.gitignore_global
 [push]
 	default = simple
+
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+
+
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
