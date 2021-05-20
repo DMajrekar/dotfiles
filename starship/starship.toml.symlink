@@ -7,7 +7,7 @@ charging_symbol = "🔌"
 discharging_symbol = "⚡"
 
 [[battery.display]]
-threshold = 30
+threshold = 20
 style = "bold red"
 
 

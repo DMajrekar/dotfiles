@@ -23,8 +23,8 @@ set visualbell
 
 
 " Set up pahtogen
-call pathogen#infect()
-filetype plugin indent on
+" call pathogen#infect()
+" filetype plugin indent on
 
 " ---------------------------------------------------------------------------
 "  Strip all trailing whitespace in file

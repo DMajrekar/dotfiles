@@ -88,3 +88,4 @@ for config_file (~/.dm-dotfiles/**/*.zsh) source $config_file
 
 # Ansible workaround
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+export PATH=$GOBIN:$PATH
